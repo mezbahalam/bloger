@@ -1,0 +1,25 @@
+mezbah:
+  first_name: "Mezbah"
+  last_name: "Alam"
+  email: "mezbahalam26@gmail.com"
+  profile_name: "mezbah_alam"
+  encrypted_password: "$2a$10$Fh/Hm8RxDsuPTeBUr6864.GARlcmt7zF2WspaXGr3BIv2C27N.osq"
+
+mezba:
+  first_name: "Mezba"
+  last_name: "Ala"
+  email: "mezbahalam2@gmail.com"
+  profile_name: "mezba_ala"
+
+mez:
+  first_name: "Mez"
+  last_name: "Al"
+  email: "mezbahalam@gmail.com"
+  profile_name: "mez_al"
+
+
+blocked_friend:
+  first_name: 'Blocked'
+  last_name: 'Friend'
+  email: 'block@example.com'
+  profile_name: 'youblocked_me'

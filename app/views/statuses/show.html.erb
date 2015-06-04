@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @status.user.full_name %>
+
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @status.content %>
+</p>
+
+<div id="comments">
+  <h2><%= @status.comments.count %> Comments</h2>
+  <%= render @status.comments %>
+
+  <h3>Add a comment:</h3>
+  <%= render "comments/form" %>
+</div>
+
+<%= link_to 'Edit', edit_status_path(@status) %> |
+<%= link_to 'Back', statuses_path %>
